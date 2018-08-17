@@ -4,4 +4,7 @@ def run_guessing_game
   puts "Guess a number between 1 and 6."
   num_user_choice = gets.chomp
   
+  until num_random == num_user_choice
+    puts ""
+  
 end 
