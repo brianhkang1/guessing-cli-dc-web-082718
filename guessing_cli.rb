@@ -15,5 +15,4 @@ def run_guessing_game
   end
   
   puts "You guessed the correct number!"
-  
 end 
