@@ -24,7 +24,7 @@ describe "Guessing CLI" do
   end
 
   it 'starts the script with the run_guessing_game method' do
-
+    expect(self).to receive(:gets).and_return('exit')
     expect { run_guessing_game }.to output(/Guess a number between 1 and 6./).to_stdout
   end
 end
