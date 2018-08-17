@@ -11,6 +11,6 @@ def run_guessing_game
     num_user_choice = gets.chomp
   end
   
-  
+  puts "You guessed the correct number!"
   
 end 
